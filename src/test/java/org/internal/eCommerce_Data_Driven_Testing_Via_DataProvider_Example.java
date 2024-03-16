@@ -43,14 +43,14 @@ public class eCommerce_Data_Driven_Testing_Via_DataProvider_Example extends Base
 		formPage.clickLetsShopButton();
 	}
 	
-	
+	// This function will always run
 	@BeforeMethod (alwaysRun = true)
 	public void preSetup() 
 	{
 		formPage.setActivity();
 	}
 	
-	
+	//Sending data to the function "LoginFormErrorValidation"
 	@DataProvider
 	public Object[][] getData() throws IOException 
 	{ 
