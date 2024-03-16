@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<groups>
+	<run>
+		<include name="Smoke" />
+	</run>
+</groups>
+
+<listeners>
+	<listener class-name="org.internal.TestUtils.Listeners"/>
+</listeners>
+	
+  <test thread-count="5" name="Ecommerce End to End Test">
+    <classes>
+      <class name="org.internal.eCommerce_Tc_1"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Ecommerce Form Error validations">
+    <classes>
+      <class name="org.internal.eCommerce_Data_Driven_Testing_Via_DataProvider_Example"/>
+    </classes>
+  </test>
+  
+</suite>

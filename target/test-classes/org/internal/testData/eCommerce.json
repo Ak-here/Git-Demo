@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Ritu",
+        "gender": "female",
+        "country": "Austria",
+        "formToastMessage":"Please enter your name"
+    },
+
+    {
+        "name": "Rakesh",
+        "gender": "male",
+        "country": "Australia",
+        "formToastMessage":"Please enter your nme"   
+    }
+]
